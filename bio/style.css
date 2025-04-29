@@ -1,0 +1,97 @@
+body {
+  background-color: gray;
+  height: 100vh;
+  width: 80vh;
+}
+
+#perfil {
+  width: 300px;
+  height: 250px;
+  border-radius: 80%;
+  border: 1px solid #24292e;
+  margin-left: 38%;
+}
+
+h1 {
+  font-family: cursive, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  margin-left: 38%;
+}
+
+p {
+  font-size: 25px;
+  width: 70%;
+  font-family: cursive, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: azure;
+  opacity: 70%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-left: 13%;
+}
+
+.container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Redes_sociais {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 220px;
+  justify-content: center;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Ícones */
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Cores personalizadas */
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+}
+
+.linkedin {
+  background-color: #d5e1e7;
+  color: #24292e;
+}
+
+.github {
+  background-color: #24292e;
+}
+a {
+  text-decoration: none;
+}
